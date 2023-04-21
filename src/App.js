@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import FunctionClick from './Components/FunctionClick';
+import Check from './Components/Check';
+import Greet from './Components/Greet';
+import Welcome from './Components/Welcome';
+import ClassClick from './Components/ClassClick';
+import EventBind from './Components/EventBind'
+import Parent from './Components/Parent';
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+         {/* <Greet name='Yash' className='Smarty' />
+        <Welcome name='Reactjs' className='via codevolution'/>  */}
+        {/* <Check/> */}
+        {/* <FunctionClick/> */}
+        {/* <ClassClick/> */}
+        {/* <EventBind/> */}
+        <Parent/>
+      </div>
+    );
+  }
 }
-
 export default App;
