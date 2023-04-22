@@ -1,0 +1,11 @@
+.Text{
+    color:#0d4879;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border: 1px solid rgb(24, 122, 15);
+    box-shadow: -10px -1px 10px 0px #460a0a; ;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}

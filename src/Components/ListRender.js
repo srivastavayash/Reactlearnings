@@ -1,9 +1,9 @@
 import React from 'react'
-
+import "./Text.css"
 function ListRender() {
     //Namelist
 const List=['Hanuman','Shaktiman','Krish']
-const Namelist=List.map(name=><h2>Hello Mr.{name}👋</h2>)
+const Namelist=List.map(name=><h2 className='Text'>Hello Mr.{name}👋 </h2>)
 return  <div>{Namelist}</div>
 
 
