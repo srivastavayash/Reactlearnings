@@ -8,6 +8,7 @@ import ClassClick from './Components/ClassClick';
 import EventBind from './Components/EventBind'
 import Parent from './Components/Parent';
 import UserGreet from './Components/UserGreet';
+import ListRender from './Components/ListRender';
 class App extends Component {
   render() {
     return (
@@ -19,7 +20,8 @@ class App extends Component {
         {/* <ClassClick/> */}
         {/* <EventBind/> */}
         {/* <Parent/> */}
-        <UserGreet/>
+        {/* <UserGreet/> */}
+        <ListRender/>
       </div>
     );
   }
