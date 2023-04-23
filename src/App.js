@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Form from './Components/Form';
 import FunctionClick from './Components/FunctionClick';
 import Check from './Components/Check';
 import Greet from './Components/Greet';
@@ -21,7 +22,8 @@ class App extends Component {
         {/* <EventBind/> */}
         {/* <Parent/> */}
         {/* <UserGreet/> */}
-        <ListRender/>
+        {/* <ListRender/> */}
+        <Form/>
       </div>
     );
   }
