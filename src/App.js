@@ -14,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-         {/* <Greet name='Yash' className='Smarty' />
+        {/* <Greet name='Yash' className='Smarty' />
         <Welcome name='Reactjs' className='via codevolution'/>  */}
         {/* <Check/> */}
         {/* <FunctionClick/> */}
@@ -23,7 +23,7 @@ class App extends Component {
         {/* <Parent/> */}
         {/* <UserGreet/> */}
         {/* <ListRender/> */}
-        <Form/>
+        <Form />
       </div>
     );
   }
