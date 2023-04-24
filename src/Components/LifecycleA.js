@@ -17,11 +17,27 @@ class LifecycleA extends Component {
     componentDidMount() {
         console.log('componentDidMount LifecycleA')
     }
-
+    shouldComponentUpdate() {
+        console.log('shouldComponentUpdate lifecycleA')
+        return true
+    }
+    getSnapshotBeforeUpdate(prevProps, prevState) {
+        console.log('getSnapshotBeforeUpdate lifecycleA')
+        return null
+    }
+    componentDidUpdate() {
+        console.log('componentDidUpdate LifecycleA')
+    }
+    message=()=> {
+        this.setState({
+            message: 'hi2'
+        })
+    }
     render() {
         console.log('render LifecycleA')
-        return (<div>
-            <LifecycleB/></div>)
+        return (<div>LifecycleA <br/>
+            <button onClick={this.message}>ClickME</button>
+            <LifecycleB /></div>)
     }
 
 }
