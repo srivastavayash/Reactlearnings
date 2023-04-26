@@ -11,6 +11,8 @@ import Parent from './Components/Parent';
 import UserGreet from './Components/UserGreet';
 import ListRender from './Components/ListRender';
 import LifecycleA from './Components/LifecycleA';
+import Fragment from './Components/Fragment';
+import Table from './Components/Table';
 class App extends Component {
   render() {
     return (
@@ -25,7 +27,9 @@ class App extends Component {
         {/* <UserGreet/> */}
         {/* <ListRender/> */}
         {/* <Form /> */}
-        <LifecycleA />
+        {/* <LifecycleA /> */}
+        {/* <Fragment/> */}
+        <Table/>
       </div>
     );
   }
