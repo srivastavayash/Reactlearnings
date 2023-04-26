@@ -14,6 +14,7 @@ import LifecycleA from './Components/LifecycleA';
 import Fragment from './Components/Fragment';
 import Table from './Components/Table';
 import Parentcomp from './Components/Parentcomp';
+import Refsdemo from './Refsdemo';
 class App extends Component {
   render() {
     return (
@@ -31,7 +32,8 @@ class App extends Component {
         {/* <LifecycleA /> */}
         {/* <Fragment/> */}
         {/* <Table/> */}
-        <Parentcomp/>
+        {/* <Parentcomp/> */}
+      <Refsdemo/>
       </div>
     );
   }
