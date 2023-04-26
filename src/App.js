@@ -13,6 +13,7 @@ import ListRender from './Components/ListRender';
 import LifecycleA from './Components/LifecycleA';
 import Fragment from './Components/Fragment';
 import Table from './Components/Table';
+import Parentcomp from './Components/Parentcomp';
 class App extends Component {
   render() {
     return (
@@ -29,7 +30,8 @@ class App extends Component {
         {/* <Form /> */}
         {/* <LifecycleA /> */}
         {/* <Fragment/> */}
-        <Table/>
+        {/* <Table/> */}
+        <Parentcomp/>
       </div>
     );
   }
