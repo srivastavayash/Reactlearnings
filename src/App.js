@@ -16,6 +16,7 @@ import Table from './Components/Table';
 import Parentcomp from './Components/Parentcomp';
 import Refsdemo from './Refsdemo';
 import FocusP from './Components/FocusP';
+import PortalDemo from './Components/PortalDemo';
 class App extends Component {
   render() {
     return (
@@ -35,7 +36,8 @@ class App extends Component {
         {/* <Table/> */}
         {/* <Parentcomp/> */}
         {/* <Refsdemo/> */}
-        <FocusP />
+        {/* <FocusP /> */}
+        <PortalDemo />
       </div>
     );
   }
