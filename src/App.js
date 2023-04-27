@@ -15,6 +15,7 @@ import Fragment from './Components/Fragment';
 import Table from './Components/Table';
 import Parentcomp from './Components/Parentcomp';
 import Refsdemo from './Refsdemo';
+import FocusP from './Components/FocusP';
 class App extends Component {
   render() {
     return (
@@ -33,7 +34,8 @@ class App extends Component {
         {/* <Fragment/> */}
         {/* <Table/> */}
         {/* <Parentcomp/> */}
-      <Refsdemo/>
+        {/* <Refsdemo/> */}
+        <FocusP />
       </div>
     );
   }
