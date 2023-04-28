@@ -17,6 +17,8 @@ import Parentcomp from './Components/Parentcomp';
 import Refsdemo from './Refsdemo';
 import FocusP from './Components/FocusP';
 import PortalDemo from './Components/PortalDemo';
+import Hero from './Components/Hero';
+import Error from './Components/Error';
 class App extends Component {
   render() {
     return (
@@ -37,7 +39,15 @@ class App extends Component {
         {/* <Parentcomp/> */}
         {/* <Refsdemo/> */}
         {/* <FocusP /> */}
-        <PortalDemo />
+        {/* <PortalDemo /> */}
+        <Error>
+          <Hero heroname="Batman" /></Error>
+        <Error>
+          <Hero heroname="Superman" />
+        </Error>
+        <Error>
+          <Hero heroname="jokey" />
+        </Error>
       </div>
     );
   }
