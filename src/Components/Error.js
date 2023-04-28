@@ -13,6 +13,10 @@ class Error extends Component {
       hasError: true
     }
   }
+  componentDidCatch(error,info){
+    alert(error)
+    console.log(info)
+  }
   render() {
     if (this.state.hasError) {
       return <h1>Harley Quinn ne keher macha dia !</h1>
