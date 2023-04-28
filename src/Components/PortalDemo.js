@@ -7,3 +7,4 @@ function PortalDemo() {
     )
 }
 export default PortalDemo
+//to understand modal-portal better efer this url:https://codesandbox.io/s/00254q4n6p?file=/src/end.js
