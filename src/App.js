@@ -19,6 +19,8 @@ import FocusP from './Components/FocusP';
 import PortalDemo from './Components/PortalDemo';
 import Hero from './Components/Hero';
 import Error from './Components/Error';
+import Counter from './Components/Counter';
+import Hover from './Components/Hover';
 class App extends Component {
   render() {
     return (
@@ -40,14 +42,17 @@ class App extends Component {
         {/* <Refsdemo/> */}
         {/* <FocusP /> */}
         {/* <PortalDemo /> */}
-        <Error>
+        {/* <Error>
           <Hero heroname="Batman" /></Error>
         <Error>
           <Hero heroname="Superman" />
         </Error>
         <Error>
           <Hero heroname="jokey" />
-        </Error>
+        </Error>*/}
+        {/* <Counter/> */}
+        <Hover />
+
       </div>
     );
   }
