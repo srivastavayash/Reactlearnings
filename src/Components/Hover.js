@@ -15,7 +15,7 @@ class Hover extends Component {
     }
     render() {
         const {click,clicked}=this.props
-        return <button onMouseOver={clicked}>Clicked {click} times</button>
+        return <button onMouseOver={clicked}>{this.props.name} Hovered {click} times</button>
     }
 }
 export default UpdatedComponent(Hover)

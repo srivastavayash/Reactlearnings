@@ -15,7 +15,8 @@ const UpdatedComponent = (OriginalComponent) => {
             })
         }
         render() {
-            return <OriginalComponent click={this.state.click} clicked={this.clicked} />
+            // console.log(this.props.name)
+            return <OriginalComponent click={this.state.click} clicked={this.clicked} {...this.props} />
         }
     }
     return NewComponent
