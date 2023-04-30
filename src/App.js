@@ -51,8 +51,8 @@ class App extends Component {
           <Hero heroname="jokey" />
         </Error>*/}
         {/* <Counter/> */}
-        <Hover />
-
+        <Counter />
+        <Hover/>
       </div>
     );
   }

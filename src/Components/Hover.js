@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import UpdatedComponent from './ParentCounter'
 class Hover extends Component {
     constructor(props) {
         super(props)
@@ -6,15 +7,15 @@ class Hover extends Component {
             click: 0
         }
     }
-    Hover = () => {
+    clicked = () => {
         this.setState(prevState => {
             console.log(this.state.click)
             return { click: prevState.click + 1 }
         })
     }
     render() {
-        return <button onMouseOver={this.Hover}>Clicked {this.state.click} times</button>
+        const {click,clicked}=this.props
+        return <button onMouseOver={clicked}>Clicked {click} times</button>
     }
 }
-
-export default Hover
+export default UpdatedComponent(Hover)
