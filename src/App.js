@@ -21,6 +21,9 @@ import Hero from './Components/Hero';
 import Error from './Components/Error';
 import Counter from './Components/Counter';
 import Hover from './Components/Hover';
+import Click2 from './Components/Click2';
+import Hover2 from './Components/Hover2';
+import REnderprops from './Components/REnderprops';
 class App extends Component {
   render() {
     return (
@@ -51,8 +54,15 @@ class App extends Component {
           <Hero heroname="jokey" />
         </Error>*/}
         {/* <Counter/> */}
-        <Counter name='Yash' />
-        <Hover name ='Yash'/>
+        {/* <Counter name='Yash' />
+        <Hover name ='Yash'/> */}
+        {/* <Click2/>
+        <Hover2/> */}
+      <REnderprops render={(click,increment)=>
+      (<Click2 click={click} increment={increment}/>)}/>
+      <REnderprops render={(click,increment)=>
+      (<Hover2 click={click} increment={increment}/>)}/>
+
       </div>
     );
   }
