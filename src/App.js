@@ -26,6 +26,7 @@ import Hover2 from './Components/Hover2';
 import REnderprops from './Components/REnderprops';
 import ComponentE from './Components/ComponentE';
 import { UserProvider } from './Components/UserContext';
+import Get from './Components/Get';
 class App extends Component {
   render() {
     return (
@@ -64,10 +65,10 @@ class App extends Component {
       (<Click2 click={click} increment={increment}/>)}/>
       <REnderprops render={(click,increment)=>
       (<Hover2 click={click} increment={increment}/>)}/> */}
-        <UserProvider value="Yash !">
+        {/* <UserProvider value="Yash !">
           <ComponentE />
-        </UserProvider>
-
+        </UserProvider> */}
+        <Get />
       </div>
     );
   }
