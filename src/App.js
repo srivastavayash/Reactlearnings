@@ -24,6 +24,8 @@ import Hover from './Components/Hover';
 import Click2 from './Components/Click2';
 import Hover2 from './Components/Hover2';
 import REnderprops from './Components/REnderprops';
+import ComponentE from './Components/ComponentE';
+import { UserProvider } from './Components/UserContext';
 class App extends Component {
   render() {
     return (
@@ -58,10 +60,13 @@ class App extends Component {
         <Hover name ='Yash'/> */}
         {/* <Click2/>
         <Hover2/> */}
-      <REnderprops render={(click,increment)=>
+        {/* <REnderprops render={(click,increment)=>
       (<Click2 click={click} increment={increment}/>)}/>
       <REnderprops render={(click,increment)=>
-      (<Hover2 click={click} increment={increment}/>)}/>
+      (<Hover2 click={click} increment={increment}/>)}/> */}
+        <UserProvider value="Yash !">
+          <ComponentE />
+        </UserProvider>
 
       </div>
     );
