@@ -27,6 +27,7 @@ import REnderprops from './Components/REnderprops';
 import ComponentE from './Components/ComponentE';
 import { UserProvider } from './Components/UserContext';
 import Get from './Components/Get';
+import Post from './Components/Post';
 class App extends Component {
   render() {
     return (
@@ -68,7 +69,8 @@ class App extends Component {
         {/* <UserProvider value="Yash !">
           <ComponentE />
         </UserProvider> */}
-        <Get />
+        {/* <Get /> */}
+        <Post />
       </div>
     );
   }
