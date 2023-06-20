@@ -1,1 +1,1 @@
-This repository contain my ReactJs Journey.
+This repository contain my ReactJs Journey and contains various concepts.
